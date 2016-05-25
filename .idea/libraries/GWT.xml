@@ -1,0 +1,43 @@
+<component name="libraryTable">
+  <library name="GWT">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../GWT" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/docs/endpoints/javadoc" />
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/docs/javadoc" />
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/docs/remoteapi/javadoc" />
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/docs/spi/javadoc" />
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/docs/testing/javadoc" />
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/docs/tools/javadoc" />
+      <root url="file://$PROJECT_DIR$/../../GWT/gwt-2.7.0/gwt-2.7.0/doc/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/demos/guestbook/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/demos/helloorm2/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/demos/helloorm/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/demos/helloservers/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/demos/helloxmpp/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/demos/jdoexamples/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/demos/mandelbrot/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/demos/mediastore/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/demos/new_project_template/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/demos/shardedcounter/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/demos/sticky/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/demos/taskengine/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/appengine-java-sdk-1.9.32/appengine-java-sdk-1.9.32/demos/taskqueueexamples/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/gwt-2.7.0/gwt-2.7.0/samples/DynaTableRf/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../GWT/gwt-2.7.0/gwt-2.7.0/samples/DynaTable/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/gwt-2.7.0/gwt-2.7.0/samples/Hello/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/gwt-2.7.0/gwt-2.7.0/samples/JSON/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/gwt-2.7.0/gwt-2.7.0/samples/Mail/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/gwt-2.7.0/gwt-2.7.0/samples/MobileWebApp/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../GWT/gwt-2.7.0/gwt-2.7.0/samples/MobileWebApp/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../GWT/gwt-2.7.0/gwt-2.7.0/samples/Showcase/src" />
+      <root url="file://$PROJECT_DIR$/../../GWT/gwt-2.7.0/gwt-2.7.0/samples/Validation/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../GWT" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../GWT" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../GWT" recursive="false" type="SOURCES" />
+  </library>
+</component>

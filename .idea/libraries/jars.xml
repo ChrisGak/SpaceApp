@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="jars">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../jars" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../jars/Highcharts-4.1.5/exporting-server/java/highcharts-export/highcharts-export-convert/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../jars/Highcharts-4.1.5/exporting-server/java/highcharts-export/highcharts-export-web/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../jars/Highcharts-4.1.5/exporting-server/java/highcharts-export/highcharts-export-web/target/tmp/jsp" />
+      <root url="file://$PROJECT_DIR$/../../jars" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../jars" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../jars" recursive="false" type="SOURCES" />
+  </library>
+</component>

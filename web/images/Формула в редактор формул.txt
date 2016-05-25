@@ -1,0 +1,1 @@
+\ddot{\theta} + \dot{\vartheta} + \frac{3}{2} \nu ^{-1}  \dot{\vartheta} ^{2} sin 2\theta  = \frac{M_{\theta }}{m_{e} L^{2}}

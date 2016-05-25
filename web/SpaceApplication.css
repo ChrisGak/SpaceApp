@@ -1,0 +1,77 @@
+/* Formatting specific to the StockWatcher application */
+
+body {
+    padding: 10px;
+}
+
+/* stock list header row */
+.watchListHeader {
+    background-color: #2062B8;
+    color: white;
+    font-style: italic;
+}
+
+/* stock list flex table */
+.watchList {
+    border: 1px solid silver;
+    padding: 2px;
+    margin-bottom:6px;
+}
+
+/* stock list Price and Change fields */
+.watchListNumericColumn {
+    text-align: right;
+    width:8em;
+}
+
+/* stock list Remove column */
+.watchListRemoveColumn {
+    text-align: center;
+}
+
+/* Add Stock panel */
+.addPanel {
+    margin: 10px 0px 15px 0px;
+}
+/* Add Stock panel */
+
+/* stock list, the Remove button */
+.gwt-Button-remove {
+    width: 50px;
+}
+
+/* Dynamic color changes for the Change field */
+.noChange {
+    color: black;
+}
+
+.positiveChange {
+    color: green;
+}
+
+.negativeChange {
+    color: red;
+}
+.errorMessage {
+    color: red;
+}
+
+.gwt-FileUpload {
+    color: green;
+}
+.info-popup{
+    color:rgba(5, 2, 46, 0.82);
+    background: #dfefc8;
+    border: 1px solid #808080;
+    padding: 0.5em;
+    width: 650px;
+    height: 400px;
+}
+.img_pdng{
+    padding: 40px;
+}
+.test-data{
+    color: rgba(255,255,255,.7);
+    font-size: 16px;
+    line-height: 1.5;
+}

@@ -1,0 +1,12 @@
+мая 24, 2016 3:41:29 PM com.spaceApplication.server.test.RungeKuttaTest main
+INFO: Accuracy Model: 
+
+мая 24, 2016 3:41:29 PM com.spaceApplication.server.test.RungeKuttaTest testFullModel1
+INFO: testFullModel1 
+
+мая 24, 2016 3:41:29 PM com.spaceApplication.server.test.RungeKuttaTest testFullModel1
+INFO: 7496201.430805913
+
+мая 24, 2016 3:41:29 PM com.spaceApplication.server.test.RungeKuttaTest testFullModel1
+INFO: 7496201.430805913
+
